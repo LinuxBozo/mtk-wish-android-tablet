@@ -32,12 +32,11 @@ on init
     mkdir /boot
     mkdir /sdcard
     mkdir /external_sd
-    mkdir /sd-ext
-    mkdir /datadata
     mkdir /emmc
     mkdir /system
     mkdir /data
     mkdir /cache
+    mkdir /tmp
     mount /tmp /tmp tmpfs
 
     chown root shell /tmp
